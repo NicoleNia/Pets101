@@ -1,4 +1,4 @@
-body,
+  body,
 html { height: 100%; margin: 0; }
 * {box-sizing: border-box;}
 
@@ -28,7 +28,7 @@ html { height: 100%; margin: 0; }
   position: fixed;
   top: 0;
   left: 0;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .sidebar a {
   padding: 6px 8px 6px 30px;
@@ -50,12 +50,10 @@ html { height: 100%; margin: 0; }
   position: fixed;
   top: 0;
   left: 0;
-  margin-top: 30px;
   display: inline-block;
 }
-.logo-search a {
-  margin: 30px;
-  margin-right: 20px;
+.logo-search i {
+  margin: 18px 5px 0px 30px;
   color: red;
   text-decoration: none;
   font-size: 30px;
@@ -71,13 +69,13 @@ html { height: 100%; margin: 0; }
   font-size: 20px;
   padding: 6px;
 
-  ::placeholder { color: black; }
+  ::placeholder { color: #fff2ea; }
 }
 
 .h-button {
   padding: 10px;
-  color: white;
-  background-color: #4944b4;
+  color: #fff2ea;
+  background-color: #ff7c1f;
   border: none;
   border-radius: 10px;
   text-decoration: none;
@@ -92,8 +90,8 @@ html { height: 100%; margin: 0; }
   width: 65%;
   font-size: 15px;
   color: black;
-  border-color: transparent transparent #2eb934;
-  bottom-border: 2px solid #2eb934;
+  border-color: transparent transparent #fff2ea;
+  bottom-border: 2px solid #fff2ea;
   background: transparent;
   opacity: 0.6;
   transition: all 0.2s;
@@ -101,14 +99,14 @@ html { height: 100%; margin: 0; }
 }
 
 .front-search:hover {
-  border-color: transparent transparent #12ff1b;
-  bottom-border: 2px solid #12ff1b;
+  border-color: transparent transparent #ff7c1f;
+  bottom-border: 2px solid #ff7c1f;
 }
 
 .front-search:focus {
-  background: #0c3e0e;
+  background: #743910;
   opacity: 0.6;
-  border: 2px solid #12ff1b;
+  border: 2px solid #ff7c1f;
   border-radius: 10px;
   outline: none;
 }
@@ -116,20 +114,19 @@ html { height: 100%; margin: 0; }
 
 /* Top Search Bar */
 .top-search {
-  margin: 15px;
   position: absolute;
   width: 100%;
 }
 
 .search-bar-button {
-  color: #ccc;
+  color: #fff2ea;
   background-color: transparent;
   font-size: 19px;
   position: absolute;
   border: none;
   text-decoration: none;
-  top: 10px;
-  left: 170px;
+  top: 17px;
+  left: 180px;
   transform: rotate(-45deg);
   cursor: pointer;
 }
@@ -139,23 +136,22 @@ input[type=text] {
   padding: 6px;
   margin-top: 15px;
   font-size: 15px;
-  color: white;
+  color: #fff2ea;
   border: 2px solid transparent;
   border-radius: 10px;
-  background: #0c3e0e;
+  background: #743910;
   opacity: 0.6;
   transition: all 0.2s;
 }
 
 input[type=text]:hover {
-  border: 2px solid #12ff1b;
+  border: 2px solid #ff7c1f;
 }
 
 input[type=text]:focus {
   opacity: 1;
-  border: 2px solid #12ff1b;
+  border: 2px solid #ff7c1f;
   outline: none;
 }
 
-::placeholder { color: white } 
-
+::placeholder { color: #fff2ea } 
