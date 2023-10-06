@@ -161,3 +161,7 @@ input[type=text]:focus {
 }
 
 ::placeholder { color: #fff2ea } 
+
+/* Information section */
+.home {padding-bottom: 30px;}
+.home p {padding-right: 150px;}
