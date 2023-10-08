@@ -165,6 +165,10 @@ input[type=text]:focus {
 /* Information section */
   .home {
     padding-bottom: 30px;
+    height: 100%; 
+    margin: 50px; 
+    background: #743910; 
+    color: #fff2ea;
   }
   .home p {
     padding-right: 150px;
